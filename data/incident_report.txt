@@ -1,0 +1,41 @@
+
+INCIDENT REPORT
+===============
+
+Alert Type: POSSIBLE_BRUTE_FORCE
+Severity: HIGH
+
+SUMMARY
+-------
+Detected 4 failed login attempts
+for user 'admin' from IP address 203.0.113.77.
+
+EVIDENCE
+--------
+- EVT007: 2026-11-22T10:04:15 admin LOGIN_FAILED 203.0.113.77 -
+- EVT008: 2026-11-22T10:04:20 admin LOGIN_FAILED 203.0.113.77 -
+- EVT009: 2026-11-22T10:04:25 admin LOGIN_FAILED 203.0.113.77 -
+- EVT010: 2026-11-22T10:05:00 admin LOGIN_FAILED 203.0.113.77 -
+
+EVIDENCE VERIFICATION
+---------------------
+The alert references 4 retrieved
+evidence records.
+
+Evidence IDs: EVT007, EVT008, EVT009, EVT010
+
+ASSESSMENT
+----------
+The records support the claim that multiple failed
+login attempts occurred for this user.
+
+This activity is suspicious but does not, by itself,
+prove that an account was compromised.
+
+RECOMMENDED ACTIONS
+-------------------
+1. Review the user's subsequent login activity.
+2. Check whether the source IP is expected.
+3. Review access to sensitive resources.
+4. Escalate to a security analyst for investigation.
+

@@ -1,0 +1,114 @@
+{
+    "source_file": "data/raw/auth.log",
+    "sha256": "940537201b8c057759857b9548190d128c538bc9e01c57d5f7c75849098677db",
+    "records": [
+        {
+            "event_id": "EVT001",
+            "timestamp": "2026-11-22T10:01:12",
+            "username": "alice",
+            "event_type": "LOGIN_FAILED",
+            "source_ip": "192.0.2.50",
+            "resource": null,
+            "raw_line": "2026-11-22T10:01:12 alice LOGIN_FAILED 192.0.2.50 -"
+        },
+        {
+            "event_id": "EVT002",
+            "timestamp": "2026-11-22T10:01:15",
+            "username": "alice",
+            "event_type": "LOGIN_FAILED",
+            "source_ip": "192.0.2.50",
+            "resource": null,
+            "raw_line": "2026-11-22T10:01:15 alice LOGIN_FAILED 192.0.2.50 -"
+        },
+        {
+            "event_id": "EVT003",
+            "timestamp": "2026-11-22T10:01:18",
+            "username": "alice",
+            "event_type": "LOGIN_FAILED",
+            "source_ip": "192.0.2.50",
+            "resource": null,
+            "raw_line": "2026-11-22T10:01:18 alice LOGIN_FAILED 192.0.2.50 -"
+        },
+        {
+            "event_id": "EVT004",
+            "timestamp": "2026-11-22T10:01:25",
+            "username": "alice",
+            "event_type": "LOGIN_SUCCESS",
+            "source_ip": "192.0.2.50",
+            "resource": null,
+            "raw_line": "2026-11-22T10:01:25 alice LOGIN_SUCCESS 192.0.2.50 -"
+        },
+        {
+            "event_id": "EVT005",
+            "timestamp": "2026-11-22T10:02:01",
+            "username": "alice",
+            "event_type": "FILE_ACCESS",
+            "source_ip": "192.0.2.50",
+            "resource": "payroll.csv",
+            "raw_line": "2026-11-22T10:02:01 alice FILE_ACCESS 192.0.2.50 payroll.csv"
+        },
+        {
+            "event_id": "EVT006",
+            "timestamp": "2026-11-22T10:03:10",
+            "username": "bob",
+            "event_type": "LOGIN_SUCCESS",
+            "source_ip": "198.51.100.20",
+            "resource": null,
+            "raw_line": "2026-11-22T10:03:10 bob LOGIN_SUCCESS 198.51.100.20 -"
+        },
+        {
+            "event_id": "EVT007",
+            "timestamp": "2026-11-22T10:04:15",
+            "username": "admin",
+            "event_type": "LOGIN_FAILED",
+            "source_ip": "203.0.113.77",
+            "resource": null,
+            "raw_line": "2026-11-22T10:04:15 admin LOGIN_FAILED 203.0.113.77 -"
+        },
+        {
+            "event_id": "EVT008",
+            "timestamp": "2026-11-22T10:04:20",
+            "username": "admin",
+            "event_type": "LOGIN_FAILED",
+            "source_ip": "203.0.113.77",
+            "resource": null,
+            "raw_line": "2026-11-22T10:04:20 admin LOGIN_FAILED 203.0.113.77 -"
+        },
+        {
+            "event_id": "EVT009",
+            "timestamp": "2026-11-22T10:04:25",
+            "username": "admin",
+            "event_type": "LOGIN_FAILED",
+            "source_ip": "203.0.113.77",
+            "resource": null,
+            "raw_line": "2026-11-22T10:04:25 admin LOGIN_FAILED 203.0.113.77 -"
+        },
+        {
+            "event_id": "EVT010",
+            "timestamp": "2026-11-22T10:05:00",
+            "username": "admin",
+            "event_type": "LOGIN_FAILED",
+            "source_ip": "203.0.113.77",
+            "resource": null,
+            "raw_line": "2026-11-22T10:05:00 admin LOGIN_FAILED 203.0.113.77 -"
+        },
+        {
+            "event_id": "EVT011",
+            "timestamp": "2026-11-22T10:06:30",
+            "username": "admin",
+            "event_type": "LOGIN_SUCCESS",
+            "source_ip": "203.0.113.77",
+            "resource": null,
+            "raw_line": "2026-11-22T10:06:30 admin LOGIN_SUCCESS 203.0.113.77 -"
+        },
+        {
+            "event_id": "EVT012",
+            "timestamp": "2026-11-22T10:07:00",
+            "username": "admin",
+            "event_type": "FILE_ACCESS",
+            "source_ip": "203.0.113.77",
+            "resource": "confidential.db",
+            "raw_line": "2026-11-22T10:07:00 admin FILE_ACCESS 203.0.113.77 confidential.db"
+        }
+    ]
+}

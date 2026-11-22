@@ -1,0 +1,27 @@
+[
+    {
+        "username": "alice",
+        "failed_attempts": 3,
+        "source_ip": "192.0.2.50",
+        "severity": "HIGH",
+        "alert_type": "POSSIBLE_BRUTE_FORCE",
+        "evidence_ids": [
+            "EVT001",
+            "EVT002",
+            "EVT003"
+        ]
+    },
+    {
+        "username": "admin",
+        "failed_attempts": 4,
+        "source_ip": "203.0.113.77",
+        "severity": "HIGH",
+        "alert_type": "POSSIBLE_BRUTE_FORCE",
+        "evidence_ids": [
+            "EVT007",
+            "EVT008",
+            "EVT009",
+            "EVT010"
+        ]
+    }
+]

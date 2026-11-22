@@ -1,0 +1,83 @@
+[
+    {
+        "alert": {
+            "username": "alice",
+            "failed_attempts": 3,
+            "source_ip": "192.0.2.50",
+            "severity": "HIGH",
+            "alert_type": "POSSIBLE_BRUTE_FORCE",
+            "evidence_ids": [
+                "EVT001",
+                "EVT002",
+                "EVT003"
+            ]
+        },
+        "verified_claims": [
+            {
+                "claim": "3 failed login attempts occurred for alice.",
+                "status": "SUPPORTED",
+                "evidence_ids": [
+                    "EVT001",
+                    "EVT002",
+                    "EVT003"
+                ]
+            },
+            {
+                "claim": "Activity originated from 192.0.2.50.",
+                "status": "SUPPORTED",
+                "evidence_ids": [
+                    "EVT001",
+                    "EVT002",
+                    "EVT003"
+                ]
+            },
+            {
+                "claim": "The account alice was compromised.",
+                "status": "UNSUPPORTED",
+                "evidence_ids": []
+            }
+        ]
+    },
+    {
+        "alert": {
+            "username": "admin",
+            "failed_attempts": 4,
+            "source_ip": "203.0.113.77",
+            "severity": "HIGH",
+            "alert_type": "POSSIBLE_BRUTE_FORCE",
+            "evidence_ids": [
+                "EVT007",
+                "EVT008",
+                "EVT009",
+                "EVT010"
+            ]
+        },
+        "verified_claims": [
+            {
+                "claim": "4 failed login attempts occurred for admin.",
+                "status": "SUPPORTED",
+                "evidence_ids": [
+                    "EVT007",
+                    "EVT008",
+                    "EVT009",
+                    "EVT010"
+                ]
+            },
+            {
+                "claim": "Activity originated from 203.0.113.77.",
+                "status": "SUPPORTED",
+                "evidence_ids": [
+                    "EVT007",
+                    "EVT008",
+                    "EVT009",
+                    "EVT010"
+                ]
+            },
+            {
+                "claim": "The account admin was compromised.",
+                "status": "UNSUPPORTED",
+                "evidence_ids": []
+            }
+        ]
+    }
+]
